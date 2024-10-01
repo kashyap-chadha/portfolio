@@ -1,0 +1,113 @@
+body{
+    background-color:  #FAF9F6;
+}
+#nav{
+    background-color:  #FAF9F6;
+}
+#About{
+    background-color:  #FAF9F6;
+}
+#skills{
+    background-color:  #FAF9F6;
+}
+#project{
+    background-color:  #FAF9F6;
+}
+.background{
+    background-color: #FAF9F6;
+}
+.box{
+    height: 300;
+    width: 300;
+    background-color: #FAF9F6;
+    overflow: hidden;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    transition: all ease 1s;
+
+}
+.box:hover img{
+    scale: 1.2;
+}
+
+.skill{
+
+    width: 50%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1 ,1fr);
+    margin-left: 25%;
+    row-gap: 2rem;
+}
+#skillist-learning{
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+#skillist-problem{
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+#myskill{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+p{
+    line-height: 2;
+}
+.skiimg{
+    border-radius: 20%;
+}
+.skiimg-learning{
+    border-radius: 20%;
+}
+#project-heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5) translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateX(0px);
+    }
+}
+
+.projects {
+    animation: appear ease forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.flex-1, .flex-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact{
+    text-align: center;
+}
+.contactheading{
+    font-family: "Montserrat", sans-serif;
+    padding-top: 100px;
+}
+footer {
+    padding: 30px;
+    background-color: #11999e;
+    margin-top: 10%;
+    text-align: center;
+}
+#footerr{
+    text-decoration: none;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+  
